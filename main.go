@@ -11,6 +11,7 @@ func main() {
 	http.HandleFunc("/", authcontroller.Index)
 	http.HandleFunc("/login", authcontroller.Login)
 	http.HandleFunc("/logout", authcontroller.Login)
+	http.HandleFunc("/register", authcontroller.Register)
 
 	fmt.Println("server started at localhost:9000")
 	http.ListenAndServe(":9000", nil)
