@@ -1,4 +1,4 @@
-# Tugas Kelompok 1 Matakuliah Pemrograman Dasar 2
+# Tugas Kelompok 1 <br> Matakuliah Pemrograman Dasar 2
 
 ### Nama Kelompok:
 1. Lutfi Ekaprima Jannata - 1152200006
