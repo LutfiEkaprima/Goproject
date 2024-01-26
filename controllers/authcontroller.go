@@ -75,12 +75,12 @@ func Login(w http.ResponseWriter, r *http.Request) {
 
 			var message error
 			if user.Username == "" {
-				message = errors.New("Username atau Password salah!")
+				message = errors.New("Username yang anda input salah!")
 			} else {
 				// pengecekan password
 				errPassword := bcrypt.CompareHashAndPassword([]byte(user.Password), []byte(UserInput.Password))
 				if errPassword != nil {
-					message = errors.New("Username atau Password salah!")
+					message = errors.New("Password yang anda input salah!")
 				}
 			}
 
