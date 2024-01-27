@@ -7,6 +7,6 @@ import (
 
 func DBConn () (db *sql.DB, err error) {
 	
-	db, err = sql.Open("mysql", "root:@tcp(localhost:3306)/golangdb")
+	db, err = sql.Open("mysql", "root:root@tcp(localhost:3306)/golangdb")
 	return
 }
