@@ -5,5 +5,5 @@
 
 # Installing
 1. Run Go Mod Tidy
-2. Type in your terminal <i>go run main.go</i> or
+2. Type in your terminal <i>go run main.go</i> or <br>
 Run Goproject.exe
